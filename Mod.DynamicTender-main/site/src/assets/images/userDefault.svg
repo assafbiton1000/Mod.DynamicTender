@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>E5C5951A-D220-4A4E-8077-05B945561B36</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="193" height="48" rx="24"></rect>
+        <filter x="-20.7%" y="-66.7%" width="141.5%" height="266.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0798186189 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Dynamic-Tender" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="001a.-Lobby-No-Preferability" transform="translate(-399.000000, -99.000000)">
+            <rect fill="#F8F8F8" x="0" y="0" width="1920" height="2182"></rect>
+            <g id="BG-Decoration-Left-Top" fill="#45C6D4" fill-opacity="0.15">
+                <path d="M0,0 L0,424.400419 C31.6838235,427.118519 56.7928257,420.59508 75.3270065,404.830102 C93.8611873,389.065124 229.085518,254.121757 481,0 L0,0 Z" id="Bottom"></path>
+                <path d="M0,0 L0,266.269565 L17.2108014,292.614485 C65.3583208,366.314862 159.997815,384.125275 228.594028,332.395154 C249.021531,316.990264 265.597309,296.409936 276.852824,272.477496 L405,0 L0,0 Z" id="Top"></path>
+            </g>
+            <g id="Comp/Mid-Nav" transform="translate(0.000000, 60.000000)">
+                <rect id="Container" fill="#D8D8D8" opacity="0" x="0" y="0" width="1920" height="100"></rect>
+                <g id="Mid-Nav" transform="translate(250.000000, 20.000000)">
+                    <g id="Group-10" transform="translate(0.000000, 15.000000)">
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <rect stroke="#E3E5E9" stroke-width="1" stroke-linejoin="square" fill="#45C6D4" fill-rule="evenodd" x="0.5" y="0.5" width="192" height="47" rx="23.5"></rect>
+                        </g>
+                        <g id="Group" transform="translate(149.000000, 4.000000)">
+                            <circle id="Oval" fill="#394053" cx="20" cy="20" r="20"></circle>
+                            <path d="M20,9.33535485 C22.940395,9.33535485 25.3323226,11.7272824 25.3323226,14.6676774 C25.3323226,17.6080724 22.940395,20 20,20 C17.059605,20 14.6676774,17.6080724 14.6676774,14.6676774 C14.6676774,11.7272824 17.059605,9.33535485 20,9.33535485 Z M20,30.6646451 C16.3264567,30.6646451 11.9833514,29.1807508 8.88888889,25.4529188 C11.9471589,23.0642108 15.8016649,21.6165091 20,21.6165091 C24.1983351,21.6165091 28.0528411,23.0642108 31.1111111,25.4529188 C28.0166486,29.1807508 23.6735433,30.6646451 20,30.6646451 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

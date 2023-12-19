@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>98FC2E75-FB98-4D22-A0C9-6B5D054E94DC@2x</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="193" height="48" rx="24"></rect>
+        <filter x="-20.7%" y="-66.7%" width="141.5%" height="266.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0798186189 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Dynamic-Tender" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="001a.-Lobby-No-Preferability" transform="translate(-260.000000, -108.000000)">
+            <rect fill="#F8F8F8" x="0" y="0" width="1920" height="2182"></rect>
+            <g id="BG-Decoration-Left-Top" fill="#45C6D4" fill-opacity="0.15">
+                <path d="M0,0 L0,424.400419 C31.6838235,427.118519 56.7928257,420.59508 75.3270065,404.830102 C93.8611873,389.065124 229.085518,254.121757 481,0 L0,0 Z" id="Bottom"></path>
+                <path d="M0,0 L0,266.269565 L17.2108014,292.614485 C65.3583208,366.314862 159.997815,384.125275 228.594028,332.395154 C249.021531,316.990264 265.597309,296.409936 276.852824,272.477496 L405,0 L0,0 Z" id="Top"></path>
+            </g>
+            <g id="Comp/Mid-Nav" transform="translate(0.000000, 60.000000)">
+                <rect id="Container" fill="#D8D8D8" opacity="0" x="0" y="0" width="1920" height="100"></rect>
+                <g id="Mid-Nav" transform="translate(250.000000, 20.000000)">
+                    <g id="Supplier" transform="translate(0.000000, 15.000000)">
+                        <g id="Group-10">
+                            <g id="Rectangle">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <rect stroke="#E3E5E9" stroke-width="1" stroke-linejoin="square" fill="#45C6D4" fill-rule="evenodd" x="0.5" y="0.5" width="192" height="47" rx="23.5"></rect>
+                            </g>
+                            <text id="תנובה-בע״מ" font-family="Assistant-Bold, Assistant" font-size="16" font-weight="bold" fill="#394053">
+                                <tspan x="54.856" y="20.6640625">תנובה בע״מ</tspan>
+                            </text>
+                            <text id="מס׳-ספק-34654" font-family="Assistant-SemiBold, Assistant" font-size="14" font-weight="500" fill="#394053">
+                                <tspan x="47.678" y="38.7060547">מס׳ ספק 34654</tspan>
+                            </text>
+                        </g>
+                        <g id="Chevron/Down/New" transform="translate(10.000000, 13.000000)" stroke="#394053" stroke-linecap="square" stroke-width="2">
+                            <polyline id="Icon" points="8 10 12.428495 14 17 10.1505083"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,4 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.text-3xl{ background-color: brown; height: auto; width: auto;}

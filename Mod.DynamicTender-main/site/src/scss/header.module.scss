@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Assistant';
+    src        : url('./../../assets/Fonts/Assistant-Regular.ttf');
+}
+
+.Header {
+    width          : 100%;
+    justify-content: flex-start;
+    direction      : rtl;
+
+    .Container {
+        text-align      : center;
+        justify-content : flex-start;
+        height          : 60px;
+        flex-direction  : column !important;
+        width           : 100%;
+        background-color: #394053;
+        padding         : 13.25px 10% !important;
+        align-self      : center;
+
+        .logo {
+            background-image : url('./../assets/images/Group.svg');
+            background-repeat: no-repeat;
+            height           : 34px !important;
+            width            : 151px;
+
+        }
+
+        .clock {
+            justify-content: center;
+            width          : 100px;
+            margin-right   : 0%;
+            order          : 2;
+
+            .SYSTEM_CLOCK {
+                height        : 21px;
+                width         : 73px;
+                color         : #FFFFFF;
+                font-family   : Assistant;
+                font-size     : 16px;
+                font-weight   : bold;
+                letter-spacing: 0;
+                line-height   : 21px;
+                text-align    : center;
+            }
+
+            .ServerTime {
+                height        : 24px;
+                width         : 70px;
+                color         : #45C6D4;
+                font-family   : Assistant;
+                font-size     : 19px;
+                font-weight   : bold;
+                letter-spacing: 0;
+                line-height   : 24px;
+                text-align    : center;
+            }
+        }
+
+    }
+
+    .subHeader {
+        width      : 100%;
+        padding    : 13.25px 10% 0 23% !important;
+        height     : 100px;
+        display    : flex;
+        align-items: center;
+        /* <---- NEW    */
+        gap        : 20px;
+        align-self : center;
+
+        @media screen and (max-width:1024px) {
+            gap: 40px;
+        }
+
+        .DynamicLogo {
+            background-image: url('./../assets/images/DynamicLogo.png');
+            height          : 60px;
+            width           : 58px;
+        }
+
+        .DynamicTextTender {
+            color      : #394053;
+            font-family: Assistant;
+            font-size  : 14pt;
+            font-weight: bold;
+            flex       : 0 0 auto;
+            max-width  : fit-content;
+        }
+
+        .DynamicUserArea {
+            margin-right: auto;
+            order       : 2;
+
+            .userRectangle {
+                border-radius    : 31px;
+                background-color : #45C6D4;
+                background-repeat: no-repeat;
+                padding          : 5px;
+                width            : 216px;
+                height           : 100%;
+                display          : flex;
+                align-items      : center;
+
+                .userLogo {
+                    clip-path        : circle(40%);
+                    background-color : #45C6D4 !important;
+                    background-image : url('./../assets/images/userDefault.svg');
+                    background-repeat: no-repeat;
+                    height           : 40px;
+                    width            : 40px;
+                    background-color : #394053;
+                }
+
+                .userName {
+                    margin-right: 2px;
+
+                    .userNameText {
+                        color         : #394053;
+                        font-family   : Assistant;
+                        font-size     : 12pt;
+                        font-weight   : bold;
+                        letter-spacing: 0;
+                        line-height   : 17px;
+                    }
+
+                    .userNameSupplier {
+                        color         : #394053;
+                        font-family   : Assistant;
+                        font-size     : 11pt;
+                        font-weight   : bold;
+                        letter-spacing: 0;
+                        line-height   : 17px;
+                    }
+                }
+
+                .userArrow {
+                    height: 24px;
+                    width : 24px;
+
+                    button {
+                        background-image : url('./../assets/images/arrowDown.svg');
+                        background-repeat: no-repeat;
+                        height           : 24px;
+                        width            : 24px;
+                    }
+                }
+
+            }
+        }
+
+        .DynamicText {
+
+            margin-right  : 15px;
+            display       : inline-flex;
+            flex-wrap     : wrap;
+            flex-direction: column;
+
+            .DynamicTextTender {
+                line-height   : 10px;
+                color         : #394053;
+                font-family   : Assistant;
+                font-size     : 15pt;
+                font-weight   : bold;
+                letter-spacing: 0;
+                text-align    : right;
+            }
+
+            .DynamicTextdynamic {
+                line-height   : 40px;
+                color         : #394053;
+                font-family   : Assistant;
+                font-size     : 30pt;
+                font-weight   : bold;
+                letter-spacing: 0;
+                text-align    : right;
+            }
+        }
+    }
+
+    .divider {
+        margin-right    : 10%;
+        height          : 1px;
+        width           : 73%;
+        background-color: #E3E5E9;
+
+        @media screen and (max-width:1440px) {
+            width: 80%;
+        }
+    }
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////old scss///////////////////////////////////////////////////////////////////////////////////////////////////////////////////

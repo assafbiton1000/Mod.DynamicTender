@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>51561819-09B2-4567-9401-DCEB3A6C32FD</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="262" height="42" rx="21"></rect>
+        <filter x="-5.7%" y="-35.7%" width="111.5%" height="171.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.094760708 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Dynamic-Tender-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="001a.-Lobby-No-Preferability" transform="translate(-477.000000, -205.000000)">
+            <rect fill="#F8F8F8" x="0" y="0" width="1920" height="2182"></rect>
+            <g id="BG-Decoration-Left-Top" fill="#45C6D4" fill-opacity="0.15">
+                <path d="M0,0 L0,424.400419 C31.6838235,427.118519 56.7928257,420.59508 75.3270065,404.830102 C93.8611873,389.065124 229.085518,254.121757 481,0 L0,0 Z" id="Bottom"></path>
+            </g>
+            <g id="Issue" transform="translate(250.000000, 197.000000)">
+                <g id="Rectangle-Copy-7">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <rect stroke="#BFBFBF" stroke-width="0.2" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="0.1" y="0.1" width="261.8" height="41.8" rx="20.9"></rect>
+                </g>
+                <g id="Icons-/-Question" transform="translate(227.000000, 8.000000)">
+                    <g id="Group-2" transform="translate(2.000000, 2.000000)">
+                        <g id="Group" fill="#FF647C">
+                            <rect id="Rectangle" x="0" y="0" width="21" height="21" rx="10.5"></rect>
+                        </g>
+                        <path d="M10,15 C10.5197974,15 10.9469658,15.3939656 10.9954223,15.8977086 L11,16.0066225 C11,16.5552498 10.5522847,17 10,17 C9.48020259,17 9.05303421,16.6060344 9.00457772,16.1022914 L9,15.9933775 C9,15.4447502 9.44771525,15 10,15 Z M7.17302906,6.48570572 C8.14780029,5.21597894 9.82739796,4.6926697 11.3627741,5.18031436 C12.8981502,5.66795901 13.9548037,7.060318 13.998589,8.65354445 C14.0409619,10.1953765 13.1258253,11.6002539 11.6819046,12.2123598 L11.5357658,12.2709035 C11.2058869,12.3855428 10.9834979,12.6864182 10.9681077,13.0260157 L10.9686303,13.1116364 C10.9952345,13.5752154 10.6365398,13.9723346 10.1674632,13.998627 C9.69838656,14.0249195 9.29655782,13.6704287 9.26995356,13.2068498 C9.20560134,12.0855126 9.89925361,11.0572288 10.949703,10.6925051 C11.7815565,10.3781215 12.3219895,9.57903781 12.2978096,8.69919634 C12.2736296,7.81935487 11.6901046,7.0504402 10.8422103,6.7811439 C10.0346919,6.52467123 9.15493346,6.77458221 8.60796865,7.40468119 L8.52847051,7.50203167 C8.24449155,7.87193967 7.71085522,7.94429705 7.3365604,7.66364639 C6.96226558,7.38299573 6.88905011,6.85561373 7.17302906,6.48570572 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

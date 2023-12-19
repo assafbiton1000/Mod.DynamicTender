@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>84E54DFE-F7D4-444D-A6ED-C31EC8115777</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="262" height="42" rx="21"></rect>
+        <filter x="-5.7%" y="-35.7%" width="111.5%" height="171.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.094760708 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Dynamic-Tender-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="002b.-Contract-Items---Preferability---First-Offer-V02" transform="translate(-270.000000, -275.000000)">
+            <rect fill="#F8F8F8" x="0" y="0" width="1920" height="1694"></rect>
+            <g id="BG" fill="#45C6D4" fill-opacity="0.15">
+                <g id="BG-Decoration-Left-Top">
+                    <path d="M0,0 L0,424.400419 C31.6838235,427.118519 56.7928257,420.59508 75.3270065,404.830102 C93.8611873,389.065124 229.085518,254.121757 481,0 L0,0 Z" id="Bottom"></path>
+                    <path d="M0,0 L0,266.269565 L17.2108014,292.614485 C65.3583208,366.314862 159.997815,384.125275 228.594028,332.395154 C249.021531,316.990264 265.597309,296.409936 276.852824,272.477496 L405,0 L0,0 Z" id="Top"></path>
+                </g>
+            </g>
+            <g id="Dropdown-(Small)" transform="translate(250.000000, 259.000000)">
+                <g id="Rectangle-Copy-7">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <rect stroke="#BFBFBF" stroke-width="0.2" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="0.1" y="0.1" width="261.8" height="41.8" rx="20.9"></rect>
+                </g>
+                <g id="Group-13" transform="translate(26.000000, 22.000000) scale(1, -1) translate(-26.000000, -22.000000) translate(20.000000, 16.000000)" stroke="#394053" stroke-linecap="square" stroke-width="2">
+                    <g id="Chevron/Down" transform="translate(6.000000, 6.000000) scale(1, -1) translate(-6.000000, -6.000000) ">
+                        <polyline id="Path-Copy-2" transform="translate(6.074044, 5.061152) scale(-1, 1) rotate(44.000000) translate(-6.074044, -5.061152) " points="9.07404429 2.06115196 8.8050575 7.79216517 3.07404429 8.06115196"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
