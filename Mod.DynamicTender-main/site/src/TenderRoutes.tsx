@@ -5,7 +5,7 @@ const TenderRoutes = () => {
   return (
     <BrowserRouter>
       <Routes>
-          <Route path="/Orders" element={<Orders />} />
+        <Route path="*" element={<Orders />} />
       </Routes>
     </BrowserRouter>
   );

@@ -18,7 +18,8 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": "./src",
-    "paths": { 
+    "paths": {
+      "*": ["src/types/*"],
       "src/*": ["*"],
       "midfx/*": ["midfx/*"]
     },

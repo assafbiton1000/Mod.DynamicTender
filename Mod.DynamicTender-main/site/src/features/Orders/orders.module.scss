@@ -1,31 +1,77 @@
+@use "sass:math";
+
 div {
   display: inline-grid;
+  .Pagination {
+    justify-content: center;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 
   .OrdersContainer {
     line-height: 1.8em;
-    position:relative;
-    margin: auto;
-    height: 90vh;
-    overflow-y: scroll;
+    position: relative;
+    margin: 81px auto 0 1%;
+    height: 73vh;
+    overflow-y: hidden;
     overflow-x: hidden;
     white-space: nowrap;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    max-width: 24%!important;
-    margin-left: 1%;
+    max-width: 24% !important;
     display: inline-grid;
-    border: 1px solid red;
     width: 23% !important;
     padding: 1%;
-    .OrderHeader{
-      height:10%;
-       background-color: #2ac497;
+    .OrderHeader {
+      font-weight: bold !important;
+      margin-left: -1%;
+      top: 67px;
+      width: 23.8%;
+      border-radius: 5px;
+      position: fixed;
+      z-index: 100;
+      padding: 5px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background-color: #ff932d;
+      &.delivery {
+        background-color: #f65b29;
+      }
+      .DeliveryIcon {
+        padding:5px;
+        border-right: 1px solid #e5e5e5;
+      }
+      .orderId{
+        padding:10px;
+      }
     }
-    .OrderSubItem{
-
+    .OrderSubItem {
+      line-height:24px;
+      border: 0.5px solid #e5e5e5;
       display: block;
-      padding-left:5px;color: #003755;
-      .OrderSubItemx{
-        padding-left:20px;
+      padding:2%;
+      color: #003755;
+      .OrderSubItemx {
+        padding-left: 20px;
+      }
+    }
+    .ScrollArrowsContainer {
+
+      display: inline-block;
+      bottom: 1%;
+      position: fixed;
+      border-radius: 3px;
+
+padding: 0 9%;
+      justify-content: center;
+>div{  display: inline-block;}
+      .ScrollArrowsDiv {
+.ArrowUpwardIcon{
+justify-content: center;
+ margin-right: 20px;
+}
+        .ArrowDownwardIcon{
+
+        }
       }
     }
   }
