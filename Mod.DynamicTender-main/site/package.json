@@ -42,7 +42,7 @@
     "react-bootstrap": "^2.6.0",
     "react-burger-menu": "^3.0.8",
     "react-countdown-circle-timer": "^3.0.9",
-    "react-device-detect": "^2.2.2",
+    "react-device-detect": "^2.2.3",
     "react-dom": "^18.2.0",
     "react-floating-button-menu": "^2.1.1",
     "react-hook-form": "^7.39.5",
