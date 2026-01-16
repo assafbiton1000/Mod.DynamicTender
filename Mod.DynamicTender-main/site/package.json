@@ -49,7 +49,7 @@
     "react-multi-lang": "^2.1.1",
     "react-number-format": "^5.1.2",
     "react-redux": "^8.0.5",
-    "react-router-dom": "^6.4.3",
+    "react-router-dom": "^6.30.3",
     "react-scroll-to-bottom": "^4.2.0",
     "react-viewport-list": "^7.1.2",
     "scss": "^0.2.4",
